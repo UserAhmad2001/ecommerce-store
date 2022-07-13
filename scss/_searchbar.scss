@@ -1,0 +1,76 @@
+$height:2.5rem;
+
+.searchbar {
+  display: flex;
+  flex-direction: row;
+  background: rgb(0, 0, 15);
+  padding: 1rem 0;
+  align-items: center;
+
+  
+}
+
+
+img {
+  height: $height;
+  margin-left: 1rem;
+}
+
+.searchbar .search {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: .5rem;
+    width: 95%;
+
+    #search-category {
+      margin: 0;
+      height: $height;
+      width: max-content;
+      border-radius: 0.5rem 0 0 0.5rem;
+      text-align: center;
+      border: none;
+      border-right: 1px solid rgba(0, 0, 0, 0.05);
+    }
+
+    .search-txt {
+      height: $height;
+      width: 70%;
+      text-indent: 1rem;
+      border: none;
+      &:focus,:active{
+        outline: none;
+      }
+    }
+    i {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: $height;
+      width: 2.5rem;
+      font-size: calc($height - .5rem);
+      background: rgb(44, 227, 255);
+      border-radius: 0 0.5rem 0.5rem 0;
+      text-align: center;
+      color: white;
+      cursor: pointer;
+      padding-inline: .2rem;
+
+      &:hover,:active{
+        background: rgb(103, 197, 255);
+      }
+    }
+  }
+
+  .searchbar .fa-cart-shopping{
+    margin-left: auto;
+    margin-right: 1rem;
+    font-size: $height;
+    color: white;
+    cursor: pointer;
+
+    &:hover,:active{
+      color: rgb(44, 227, 255);
+    }
+  }
