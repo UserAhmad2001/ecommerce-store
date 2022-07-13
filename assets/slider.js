@@ -1,9 +1,8 @@
 var sliderImages = 
 [
-'../images/client-1.jpg',
-'../images/client-2.jpg',
-'../images/finance_calculator.png',
-'../images/movie_trailer.png'
+'https://m.media-amazon.com/images/I/81YSWfTFDbL._SX3000_.jpg',
+'https://m.media-amazon.com/images/I/61shpu9mvML._SX3000_.jpg',
+'https://m.media-amazon.com/images/I/71qid7QFWJL._SX3000_.jpg',
 ]
 
 // constants and elements
@@ -27,7 +26,7 @@ function sliderInit(){
         el.style.background = 'url('+ sliderImages[i] +')'
         el.style.backgroundRepeat = "no-repeat"
         el.style.backgroundSize = 'cover'
-        el.style.backgroundPosition = 'center'
+        el.style.backgroundPosition = 'top'
         el.style.transition = 'transform 1s ease'
         if(i===0){el.classList.add('activeImg')}
         imagesContainer.append(el)
@@ -66,7 +65,7 @@ icc[ind].classList.add('activeImg')
 }
 function intervalFunc(){
 if(sliderMoving){
-    if(ind === 4){
+    if(ind === sliderImages.length){
         ind = 0
     }
     toggleImage(ind)

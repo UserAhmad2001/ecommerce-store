@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
   background: rgb(235, 235, 235);
+  overflow-x: hidden;
 }
 
 .top-slider {
@@ -56,7 +57,7 @@ body {
 
 .navbar {
   display: block;
-  background-color: #000028;
+  background-color: #1c1c2e;
   color: white;
 }
 
@@ -89,7 +90,7 @@ nav {
 }
 
 img {
-  height: 2.5rem;
+  height: 3rem;
   margin-left: 1rem;
 }
 
@@ -103,7 +104,7 @@ img {
 }
 .searchbar .search #search-category {
   margin: 0;
-  height: 2.5rem;
+  height: 3rem;
   width: max-content;
   border-radius: 0.5rem 0 0 0.5rem;
   text-align: center;
@@ -111,10 +112,12 @@ img {
   border-right: 1px solid rgba(0, 0, 0, 0.05);
 }
 .searchbar .search .search-txt {
-  height: 2.5rem;
+  height: 3rem;
   width: 70%;
   text-indent: 1rem;
   border: none;
+  font-size: 1.2rem;
+  color: gray;
 }
 .searchbar .search .search-txt:focus, .searchbar .search .search-txt :active {
   outline: none;
@@ -123,9 +126,9 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 2.5rem;
+  height: 3rem;
   width: 2.5rem;
-  font-size: 2rem;
+  font-size: 2.5rem;
   background: rgb(44, 227, 255);
   border-radius: 0 0.5rem 0.5rem 0;
   text-align: center;
@@ -140,12 +143,52 @@ img {
 .searchbar .fa-cart-shopping {
   margin-left: auto;
   margin-right: 1rem;
-  font-size: 2.5rem;
+  font-size: 3rem;
   color: white;
   cursor: pointer;
 }
 .searchbar .fa-cart-shopping:hover, .searchbar .fa-cart-shopping :active {
   color: rgb(44, 227, 255);
+}
+
+.recommended {
+  display: flex;
+  position: relative;
+  top: -10%;
+  flex-direction: row;
+  align-items: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.recommended span {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+  background-size: cover;
+  width: 30%;
+  height: 30rem;
+  margin: auto;
+  overflow: hidden;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+.recommended span img {
+  width: 100%;
+  height: max-content;
+}
+.recommended span p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  color: white;
+  padding-inline: 1rem;
+  font-size: 3rem;
+  background: rgba(0, 0, 0, 0.6666666667);
 }
 
 @keyframes slider {

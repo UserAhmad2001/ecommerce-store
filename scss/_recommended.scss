@@ -1,0 +1,47 @@
+.recommended{
+    display: flex;
+    position: relative;
+    top: -10%;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    span{
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-position: center;
+        background-size: cover;
+        width: 30%;
+        height: 30rem;
+        margin: auto;
+        overflow: hidden;
+        cursor: pointer;
+        box-sizing: border-box;
+
+        
+        img{
+            width: 100%;
+            height: max-content;
+        }
+
+        p{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            text-align: center;
+            width: 100%;
+            height: 100%;
+            color: white;
+            padding-inline: 1rem;
+            font-size: 3rem;
+            background: #000000aa;
+        }
+        
+
+
+    }
+    
+}
