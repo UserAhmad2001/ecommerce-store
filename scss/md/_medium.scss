@@ -1,3 +1,18 @@
-@media screen and (max-width:940px) {
-    
+body{
+
+
+
+
+
+    @media screen and (max-width:940px) {
+        .recommended{
+            span{
+                height: 20rem;
+                
+                p{
+                    font-size: 1.5rem;
+                }
+            }
+        }
+    }
 }

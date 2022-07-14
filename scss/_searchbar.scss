@@ -20,14 +20,14 @@ img {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
-    margin-left: .5rem;
+    justify-content: flex-start;
+    margin-left: 2rem;
     width: 95%;
 
     #search-category {
       margin: 0;
       height: $height;
-      width: max-content;
+      width: 10%;
       border-radius: 0.5rem 0 0 0.5rem;
       text-align: center;
       border: none;
@@ -36,7 +36,7 @@ img {
 
     .search-txt {
       height: $height;
-      width: 70%;
+      width: 50%;
       text-indent: 1rem;
       border: none;
       font-size: calc($height - 1.8rem);
@@ -51,7 +51,7 @@ img {
       justify-content: center;
       height: $height;
       width: 2.5rem;
-      font-size: calc($height - .5rem);
+      font-size: calc($height - 1rem);
       background: rgb(44, 227, 255);
       border-radius: 0 0.5rem 0.5rem 0;
       text-align: center;

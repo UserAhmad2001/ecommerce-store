@@ -27,14 +27,13 @@
 
 
         .counter{
-            display: flex;
+            display: none;
             position: absolute;
             flex-direction: column;
-            top: 50%;
-            left: 1%;
-            transform: translate(-50%,-100%);
+            top: 47%;
+            left: 1.5%;
             z-index: 1000;
-            opacity: 0;
+            opacity: .5;
 
             span{
                 width: .8rem;

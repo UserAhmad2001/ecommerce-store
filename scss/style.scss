@@ -4,9 +4,13 @@
 @use './navbar';
 @use './searchbar';
 @use './recommended';
+@use './secondary-slider';
 
-
-@use './md/medium.scss';
 
 
 @use './anim';
+
+
+
+@use './md/medium.scss';
+@use './sml/small';
