@@ -2,9 +2,10 @@ body{
 
 
 
-
-
+    
+    
     @media screen and (max-width:940px) {
+        
         .recommended{
             span{
                 height: 20rem;
@@ -14,5 +15,33 @@ body{
                 }
             }
         }
+
+        
+        .secondary-slider .secondary-slider-images{
+    
+            span{
+                height: 70%;
+                width: 40%;
+            }
+    
+    
+        }
+
+
+
+
+
     }
+
+
+        
+
+
+
+
+
+
+
+
 }
+    
