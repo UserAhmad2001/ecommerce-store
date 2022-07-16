@@ -222,21 +222,21 @@ img {
 .secondary-slider .secondary-slider-images {
   position: relative;
   width: 100%;
-  height: 30vh;
+  height: 40vh;
   margin-top: 2rem;
   overflow: auto;
 }
 .secondary-slider .secondary-slider-images span {
   display: flex;
   align-items: center;
-  justify-content: center;
+  flex-direction: column;
   height: 100%;
-  width: 25%;
+  width: 20%;
   overflow: hidden;
   position: absolute;
 }
 .secondary-slider .secondary-slider-images span img {
-  width: max-content;
+  width: 100%;
   height: 100%;
   margin-right: auto;
   cursor: pointer;
@@ -244,7 +244,7 @@ img {
 
 .footer .footer-links {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(25vh, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(33vh, 1fr));
   background: #00000f;
   color: white;
   padding: 3rem 0;
@@ -256,16 +256,21 @@ img {
   list-style: none;
   font-size: 1.5rem;
   font-weight: 900;
+  margin-block: 2rem;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 .footer .footer-links ul span {
-  margin-bottom: 0.2rem;
+  margin-bottom: 1rem;
+  font-size: 2rem;
 }
 .footer .footer-links ul li {
   font-size: 1rem;
-  font-weight: 100;
-  margin: 0.5rem 0;
+  font-weight: 600;
+  padding-block: 0.5rem;
   cursor: pointer;
+  font-family: monospace;
+  line-break: loose;
+  text-align: center;
 }
 .footer .footer-links ul li:hover, .footer .footer-links ul li :active {
   color: rgb(114, 220, 255);
@@ -273,7 +278,6 @@ img {
 .footer .footer-links ul li:focus {
   outline: white solid 1px;
 }
-
 @keyframes slider {
   from {
     transform: translateX(0);
