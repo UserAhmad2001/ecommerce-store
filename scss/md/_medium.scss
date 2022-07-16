@@ -5,6 +5,16 @@ body{
     
     
     @media screen and (max-width:940px) {
+
+
+        .searchbar .search{
+            
+            #search-category {
+                width: 20%;
+              }
+              
+        }
+
         
         .recommended{
             span{
@@ -14,6 +24,7 @@ body{
                     font-size: 1.5rem;
                 }
             }
+
         }
 
         

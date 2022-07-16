@@ -1,0 +1,54 @@
+.footer{
+    
+.footer-links{
+    display: grid;
+    grid-template-columns: repeat( auto-fit , minmax(25vh , 1fr));
+    background: #00000f;
+    color: white;
+    padding: 3rem 0;
+
+
+
+    ul{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        list-style: none;
+        font-size: 1.5rem;
+        font-weight: 900;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+        
+        span{
+            margin-bottom: .2rem;
+        }
+
+        li{
+            font-size: 1rem;
+            font-weight: 100;
+            margin: .5rem 0;
+            cursor: pointer;
+            &:hover,:active{
+                color: rgb(114, 220, 255);
+            }
+            &:focus{
+                outline: white solid 1px;
+            }
+        }
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+}
