@@ -278,6 +278,7 @@ img {
 .footer .footer-links ul li:focus {
   outline: white solid 1px;
 }
+
 @keyframes slider {
   from {
     transform: translateX(0);
@@ -325,7 +326,7 @@ img {
     height: 100%;
   }
   body .secondary-slider .secondary-slider-images span {
-    height: 70%;
+    height: 50%;
     width: 33%;
   }
 }
